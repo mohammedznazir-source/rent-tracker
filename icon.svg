@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D2363A"/>
+      <stop offset="0.55" stop-color="#B5100D"/>
+      <stop offset="1" stop-color="#8E0B0A"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.26"/>
+      <stop offset="0.47" stop-color="#FFFFFF" stop-opacity="0.07"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1ECEA"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="22"/>
+      <feOffset dy="22" result="b"/>
+      <feFlood flood-color="#4A0004" flood-opacity="0.45"/>
+      <feComposite in2="b" operator="in"/>
+    </filter>
+    <clipPath id="clip"><rect width="1024" height="1024" rx="232" ry="232"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <rect width="1024" height="1024" fill="url(#gloss)"/>
+    
+  <g transform="translate(512 512) scale(0.94) translate(-512 -512)">
+    <g filter="url(#shadow)">
+      <path d="M512 238 L770 462 L770 784 L254 784 L254 462 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="64" stroke-linejoin="round"/>
+    </g>
+    <path d="M512 238 L770 462 L770 784 L254 784 L254 462 Z" fill="url(#house)" stroke="url(#house)" stroke-width="64" stroke-linejoin="round"/>
+    <path d="M42.0001220703125 0V147.5986328125H58.80029296875Q79.80029296875 147.5986328125 94.80029296875 165.19863891601562Q109.80029296875 182.79864501953125 109.80029296875 207.9986572265625V275.80023193359375H42.0001220703125V399.5992431640625H109.80029296875V484.60052490234375Q109.80029296875 560.8002319335938 139.20022583007812 611.5001220703125Q168.60015869140625 662.2000122070312 221.10003662109375 687.1000061035156Q273.59991455078125 712 343.39971923828125 712Q409.99957275390625 712 461.0994567871094 688.3999938964844Q512.1993408203125 664.7999877929688 541.1992797851562 617.5000305175781Q570.19921875 570.2000732421875 570.19921875 496.6002197265625L413.60064697265625 507.40020751953125Q413.60064697265625 542.4005737304688 392.7004089355469 560.6008605957031Q371.8001708984375 578.8011474609375 341.79974365234375 578.8011474609375Q307.79937744140625 578.8011474609375 287.1991271972656 554.4009399414062Q266.598876953125 530.000732421875 266.598876953125 484.60052490234375V399.5992431640625H472.79876708984375V275.80023193359375H266.598876953125V218.99871826171875Q266.598876953125 180.39862060546875 241.5989990234375 147.5986328125H570.19921875V0Z" fill="url(#bg)" transform="translate(512 632) scale(0.36 -0.36) translate(-306 -356)"/>
+  </g>
+  </g>
+</svg>
